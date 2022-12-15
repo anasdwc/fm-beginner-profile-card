@@ -14,6 +14,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url(../../images/bg-pattern-top.svg), url(../../images/bg-pattern-bottom.svg);
+  background-position: top -380px left -110px, bottom -350px right -150px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 main {
